@@ -1,24 +1,45 @@
 {
   "name": "spotifyappv2",
   "version": "1.0.0",
+  "private": true,
   "description": "Spotify App v2 using tailwindcss and vue.js",
-  "main": "index.js",
+  "author": {
+    "name": "Gustavo Sanchez"
+  },
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gustavosanchezgalarza/spotifyappv2.git"
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.14"
   },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "_id": "spotifyappv2@1.0.0",
+  "bugs": {
+    "url": "https://github.com/gustavosanchezgalarza/spotifyappv2/issues"
+  },
+  "homepage": "https://github.com/gustavosanchezgalarza/spotifyappv2#readme",
   "keywords": [
     "SpotifyApp",
     "vue.js",
     "tailwindcss"
   ],
-  "author": "Gustavo Sanchez",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gustavosanchezgalarza/spotifyappv2/issues"
-  },
-  "homepage": "https://github.com/gustavosanchezgalarza/spotifyappv2#readme"
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavosanchezgalarza/spotifyappv2.git"
+  }
 }
