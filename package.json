@@ -1,0 +1,24 @@
+{
+  "name": "spotifyappv2",
+  "version": "1.0.0",
+  "description": "Spotify App v2 using tailwindcss and vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavosanchezgalarza/spotifyappv2.git"
+  },
+  "keywords": [
+    "SpotifyApp",
+    "vue.js",
+    "tailwindcss"
+  ],
+  "author": "Gustavo Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gustavosanchezgalarza/spotifyappv2/issues"
+  },
+  "homepage": "https://github.com/gustavosanchezgalarza/spotifyappv2#readme"
+}
